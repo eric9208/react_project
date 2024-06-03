@@ -1,24 +1,22 @@
 import { useState } from "react";
 
-export default function Player({ name, symbol, activePlayer }) {
+export default function Player({ name, symbol, activePlayer, onChangeName }) {
   const [isEditing, setIsEditing] = useState(false);
   const [playerName, setPlayerName] = useState(name);
   const [buttonText, setButtonText] = useState("Edit");
 
-  const handleButtonClick = (e) => {
-    e.preventDefault();
-
-    if (buttonText === "Edit") {
+  const handleEditButton = () => {
+    if (!isEditing) {
       setButtonText("Save");
       setIsEditing(true);
     } else {
       setButtonText("Edit");
       setIsEditing(false);
+      onChangeName(symbol, playerName);
     }
   };
 
   const handleChange = (e) => {
-    e.preventDefault();
     setPlayerName(e.target.value);
   };
 
@@ -38,7 +36,7 @@ export default function Player({ name, symbol, activePlayer }) {
 
         <span className="player-symbol">{symbol}</span>
       </span>
-      <button onClick={handleButtonClick}>{buttonText}</button>
+      <button onClick={handleEditButton}>{buttonText}</button>
     </li>
   );
 }
