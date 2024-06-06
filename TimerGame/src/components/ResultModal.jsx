@@ -36,10 +36,12 @@ const ResultModal = forwardRef(function ResultModal(
   });
   return (
     <dialog ref={dialog} className="result-modal">
-      {userLost && <h2>{playerName}, you Lost </h2>}
+      {userLost && (
+        <h2>{playerName ? playerName : "Unknown Entity"}, you Lost </h2>
+      )}
       {!userLost && (
         <h2>
-          {playerName}'s Score: {score}
+          {playerName ? playerName : "Unknown Entity"}'s Score: {score}
         </h2>
       )}
       <h3>{scoreText}</h3>
