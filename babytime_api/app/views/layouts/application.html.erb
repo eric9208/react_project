@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BabytimeApi</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+  <body>
+    <nav>
+      <%= link_to "Welcome", root_path %>
+      <%= link_to "Activity Page", activities_path %>
+      <%= link_to "New Sleep", new_sleep_path %>
+      <%= link_to "New Diaper", new_diaper_path %>
+      <%= link_to "New Formula", new_formula_path %>
+      <% if user_signed_in?%>
+        <h5> Hello <%= current_user.full_name%> </h5>
+        <%= button_to "Log out", session_path, method: :delete%>
+        <%= link_to "Baby", babies_path %>
+      <% else%>
+        <%= link_to 'Sign in', new_session_path %>
+        <%= link_to 'Sign up', new_user_path %>
+      <%end%>
+    </nav>
+    <%= yield %>
+  </body>
+</html>

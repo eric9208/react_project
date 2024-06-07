@@ -1,0 +1,19 @@
+Name: Eric Lee
+Email: eric@jane.app
+GitHub Link: https://github.com/EricLee9208
+LinkedIn Link: https://www.linkedin.com/in/eric-lee-87b91bb7/
+
+Background: I graduated from Simon Fraser University with a Bachelor's degree in Business, with a concentration in Management of Information System and Interantional Business.  
+            I've always had an interest in programming, so during my time at SFU, I took several computer science courses, 
+            and that's when I realized that web development was something that I wanted to do as a career. 
+            However, my circumstances at the time didn't allow me to purse a double degree, so I had to put my dream on hold. 
+            Lucky for me, my employer, Jane App, provided me with an amazing opportunity to fulfil my dream by learning web development through Code Core's bootcamp. 
+            I really hope that I can take advantage of this opportunity to purse a career as a full stack web developer,
+            and build meaningful products that can benefit many people.
+
+
+About Final Project: The app that I built is called BabyTime, and the purpose of the app is to help new parents to stay on top of the parenting game.
+                     You can record and track baby's activities, so when the baby starts to cry, you know exactly 
+                     what your baby needs!
+
+List of coding languages: Ruby on Rails, Javascript, React, CSS, HTML

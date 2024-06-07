@@ -1,0 +1,8 @@
+ <%if @baby%>
+  <div>
+    <h2> <%= link_to @baby.first_name + " " + @baby.last_name, @baby %> </h2>
+    <hr>
+  </div>
+<%else%>
+  <%= link_to "Create Baby Profile", new_baby_path%>
+<% end %>

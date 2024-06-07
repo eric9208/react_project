@@ -1,0 +1,6 @@
+<h1><%=@formula.title%></h1>
+<p>Amount: <%=@formula.amount%></p>
+<p>Crreated at: <%=@formula.created_at%></p>
+<p>Note: <%=@formula.note%></p>
+<%= button_to 'Edit', edit_formula_path(@formula), method: :get %>
+<%= button_to 'Delete', formula_path(@formula), method: :delete, form: {data: {turbo_confirm: "Are you sure?"}} %>

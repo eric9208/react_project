@@ -1,0 +1,6 @@
+<h1><%=@sleep.title%></h1>
+<p>Duration: <%=@sleep.duration%></p>
+<p>Crreated at: <%=@sleep.created_at%></p>
+<p>Note: <%=@sleep.note%></p>
+<%= button_to 'Edit', edit_sleep_path(@sleep), method: :get %>
+<%= button_to 'Delete', sleep_path(@sleep), method: :delete, form: {data: {turbo_confirm: "Are you sure?"}} %>

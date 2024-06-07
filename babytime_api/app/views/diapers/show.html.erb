@@ -1,0 +1,5 @@
+<h1><%=@diaper.title%></h1>
+<p>Crreated at: <%=@diaper.created_at%></p>
+<p>Note: <%=@diaper.note%></p>
+<%= button_to 'Edit', edit_diaper_path(@diaper), method: :get %>
+<%= button_to 'Delete', diaper_path(@diaper), method: :delete, form: {data: {turbo_confirm: "Are you sure?"}} %>

@@ -1,0 +1,8 @@
+<%if @activity%>
+  <%@final.each do |sleep|%>
+    <h2><%= link_to sleep.title, sleep%> <%#=sleep.title%> </h2>
+    <p><%=sleep.created_at%></p>
+  <% end %>
+<% else %>
+  <%= button_to "Get Started", activities_path, method: :post %>
+<% end %>

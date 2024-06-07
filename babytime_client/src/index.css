@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: Comic Sans MS !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.diaper{
+  text-decoration: none;
+  color: #cf9180;
+}
+
+.diaper:hover{
+  text-decoration: none;
+  color: #a85e48;
+}
+
+.formula{
+  text-decoration: none;
+  color: #7c9468;
+}
+.formula:hover{
+  text-decoration: none;
+  color: #4d6935;
+}
+.sleep{
+  text-decoration: none;
+  color: #779ecb;
+}
+.sleep:hover{
+  text-decoration: none;
+  color: #3b689c;
+}
+ul{
+  /* font-family: Verdana; */
+  font-size: larger;
+}
+nav{
+  background-color: #6495ed;
+}
+
+.navList{
+  text-decoration: none;
+  color:aliceblue;
+  margin:2%
+}
+
+.iconSleep:hover{
+  background-color: #3b689c !important
+}
+.iconFormula:hover{
+  background-color: #4d6935 !important
+}
+.iconDiaper:hover{
+  background-color: #a85e48 !important
+}
+
+.welcomeBack{
+  background-image: url(./401.jpg);
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-color: #f8f9fb;
+  color:Black
+}
+.signPage{
+  background-image: url(./401.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #e4ecf5;
+  color:Black
+}
+
+.signForm{
+  background-color: #c1e1df !important;
+  border: #c1e1df !important;
+  width:30vw; 
+margin-left:10vw;
+margin-top:20vh !important;
+margin:auto;
+padding:20px;
+
+}
+.startTracking{
+  background-color: #c1e1df !important;
+ 
+}
+.startTracking:hover{
+  background-color: #afc0e0 !important
+  
+}
+
+.formButton{
+  background-color: #6495ed !important;
+}
+
+.formButton:hover{
+  background-color: #356cd2 !important;
+}
+
+.babyButton:hover{
+  background-color: #a1b9e7 !important;
+}
+
+.deleteButton{
+  background-color: #c1e1df !important;
+}
+.deleteButton:hover{
+  background-color: #86d6d1 !important;
+}

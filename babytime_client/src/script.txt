@@ -1,0 +1,111 @@
+<INTRODUCTION>
+
+Hello everyone. My name is Eric and today I am going to introduce an App that I built, called BabyTime.
+So to briefly explain what the app is for, the purpose of the app is to help new parents, 
+just like myself, to stay on top of the parenting game.
+You can use this app to record and track baby's activities, so when the baby starts to cry, you know exactly what your baby needs!
+
+<HOMEPAGE/SIGNUP>
+
+So here is the home page of the app, and to begin, you would first sign-up by going to the sign up page,
+and fill out this form, so 
+I'm just going to quickly create an account for demo purposes. 
+
+and as soon as you sign up, you will get logged in, and get redirected to the home page.
+
+
+
+<BABYPAGE>
+
+So now that you are signed in, you would go ahead and start by creating a baby's profile. 
+So to do that, you would go into this My Baby page,
+
+and here, you can see a card with a picture and some description. 
+Right now, the picture is just an empty podium, 
+and it says please create your baby's profile here, 
+but once you create your baby's profile, the picture in this card will change,
+and the descriptions will also change depending on your input. 
+
+
+
+
+<BABYPAGE CREATE>
+
+So lets go ahead and create baby's profile. and to do that, you would click this create baby profile link, 
+which will take you to this form where you can enter in baby's name, and birth date. 
+
+Right now, its just these two fields, but in the future, 
+I am planning on adding more fields such as gender, weight, picture, and so on. 
+
+Also, right now, you can only create one baby profile per account, 
+but in the future, I am planning on adding in the ability to create multiple baby profile, 
+
+//which could be a great place to introduce a subscription model, 
+for example, regular account can only create one baby profile
+and the premium account can create multiple, but we will see.//
+
+ok so, as soon as you create the baby profile, it will take you back to the baby's card page, 
+and here, you can now see that the picture have changed, and the description is showing baby's name, birth date, and the age in a human friendly way. 
+And of course, if you made a mistake when creating the baby profile, you can edit the profile by clicking on this link
+which will take you to the edit page, and here you can edit the profile.
+
+
+Right now, the main purpose of the profile is just to show baby's information, 
+but in the future, using the information from the baby's profile,  
+I am planning on implementing email marketing system, where depending on baby's age, 
+I would send out an email, promoting products that are beneficial for both the parents and the baby at a given stage.
+
+
+<ACTIVITY PAGE>
+
+Next, I will show you how you can record and track baby's activities. So to do that, you would click the "Activity" link from the navbar.
+Once you click the Activity link, it will take you to this page, where if its your first time entering this page, it will 
+render this button to start tracking. 
+Once we click this, it will render this page where the actual recording happens. 
+
+
+<ACTIVTY ACTUAL PAGE/ CREATE DIAPER>
+
+So right off the bat, you will see these three icons, one for sleep, one for diaper, and one for formula.
+So let say you just changed your baby's diaper. To record this activity, you will simply click the diaper icon, 
+and this will create a record with time and the title, which in this case is diaper, and also show you  
+the last time you changed the diaper right below the diaper icon, which in this case is a few seconds ago. 
+
+
+You can also click on the record which will take you to this page, where you can write some notes about the activity.
+
+
+Say the baby's poop was green. Then you would write Green poop and press the update diaper, and this will take you to the previous page, 
+and now you can see the note added to the record. 
+
+
+<SLEEP CREATE>
+
+The same thing goes for the sleep and the formula.
+So for sleep, same thing as the diaper, you would click on the sleep icon, and it will create the record.
+But notice that for sleep, we can also set the duration which is 30 mins here. 
+Right now, I've set the default duration to 30 min, because I found that 
+my baby's most frequent duration for naps are 30 min, but you can always change the duration by clicking on the record, and updating the duration
+
+
+<FORMULA CREATE>
+For formula, instead of duration, there is an amount, and the default is set to 100ml, but again, you can change this by 
+clicking on the record and updating the amount. 
+
+
+<DATE CHANGE>
+Just for demo purposes, I will show you how the page would look as time goes on, so I am going to change the date manually to see 
+what it would look like the next day. 
+
+So I will change the date, and go to my app and create some activity, and here, you can see that the previous date's activity have now 
+been pushed down, and the new activity with new dates are being added to the top. 
+
+
+<DELETE RECORD>
+And lastly, say that you've created the activity by mistake.
+Well that won't be an issue. because You can go into the record and delete the activity by pressing this delete button. 
+Once you click the button, it will remove the activity, and take you back to the activity list, and here you can see that the activity is now gone. 
+
+
+And yeah, that concludes my presentation 
+Thank you everyone for listening. 

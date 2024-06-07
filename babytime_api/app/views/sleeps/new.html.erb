@@ -1,0 +1,13 @@
+<%= form_with(model: @sleep) do |form| %>
+  <div>
+    <%= form.label :duration %>
+    <br>
+    <%= form.number_field :duration %>
+  </div>
+  <div>
+    <%= form.label :note %>
+    <br>
+    <%= form.text_area :note, cols:50, rows: 5 %>
+  </div>
+  <%= form.submit %>
+<% end %>

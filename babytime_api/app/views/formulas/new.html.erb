@@ -1,0 +1,13 @@
+<%= form_with(model: @formula) do |form| %>
+  <div>
+    <%= form.label :amount %>
+    <br>
+    <%= form.number_field :amount %>
+  </div>
+  <div>
+    <%= form.label :note %>
+    <br>
+    <%= form.text_area :note, cols:50, rows: 5 %>
+  </div>
+  <%= form.submit %>
+<% end %>

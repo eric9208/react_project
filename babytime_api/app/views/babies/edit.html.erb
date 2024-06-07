@@ -1,0 +1,18 @@
+<%= form_with(model: @baby) do |form| %>
+  <div>
+    <%= form.label :first_name %>
+    <br>
+    <%= form.text_field :first_name %>
+  </div>
+  <div>
+    <%= form.label :last_name %>
+    <br>
+    <%= form.text_field :last_name%>
+  </div>
+  <div>
+    <%= form.label :dob %>
+    <br>
+    <%= form.date_field :dob%>
+  </div>
+  <%= form.submit %>
+<% end %>
